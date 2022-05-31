@@ -1,0 +1,15 @@
+a = 0
+for i in range(1, 100):
+    a += i
+else:
+    print(a)
+    
+a = int(input('введите число'))
+b = int(input('введите число'))
+c = int(input('введите число'))
+if a == b or a == c or c == b:
+    print("yes")
+else:
+    print("error")
+    
+    
